@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas Sound Festival 2026 – Festival de musique à Marrakech</title>
+  <meta name="description" content="Atlas Sound Festival 2026 : 3 jours de musique, 12 artistes, une expérience inoubliable à Marrakech.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#accueil" class="logo">Atlas<span>Sound</span></a>
+    <nav>
+      <ul>
+        <li><a href="#programme">Programme</a></li>
+        <li><a href="#artistes">Artistes</a></li>
+        <li><a href="#galerie">Galerie</a></li>
+        <li><a href="#infos">Infos pratiques</a></li>
+        <li><a href="#inscription" class="btn-nav">Réserver</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO + COMPTE À REBOURS -->
+    <section id="accueil" class="hero">
+      <p class="tagline">Marrakech · 18 – 20 décembre 2026</p>
+      <h1>Atlas Sound <em>Festival</em></h1>
+      <p class="lead">Trois jours, trois scènes, douze artistes. Électro, gnawa fusion et hip-hop sous les étoiles de l'Atlas.</p>
+
+      <div id="countdown" class="countdown" aria-live="polite">
+        <div><span id="days">00</span><small>Jours</small></div>
+        <div><span id="hours">00</span><small>Heures</small></div>
+        <div><span id="minutes">00</span><small>Minutes</small></div>
+        <div><span id="seconds">00</span><small>Secondes</small></div>
+      </div>
+      <a href="#inscription" class="btn">Je m'inscris</a>
+    </section>
+
+    <!-- PRÉSENTATION -->
+    <section class="section" id="presentation">
+      <h2>Le festival</h2>
+      <p>L'Atlas Sound Festival réunit chaque année étudiants, familles et passionnés de musique autour d'une programmation éclectique. Cette 3<sup>e</sup> édition se tient au Parc des Expositions de Marrakech, avec trois scènes, un village gastronomique et des ateliers de découverte musicale.</p>
+    </section>
+
+    <!-- PROGRAMME -->
+    <section class="section alt" id="programme">
+      <h2>Programme</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Vendredi 18 déc.</h3>
+          <ul>
+            <li>18h00 – Ouverture des portes</li>
+            <li>19h00 – Nour Ensemble</li>
+            <li>21h00 – DJ Sahara</li>
+            <li>23h00 – Layali (tête d'affiche)</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Samedi 19 déc.</h3>
+          <ul>
+            <li>16h00 – Ateliers & village</li>
+            <li>18h00 – Atlas Roots</li>
+            <li>20h30 – Yara Flow</li>
+            <li>23h00 – Mehdi K. (tête d'affiche)</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Dimanche 20 déc.</h3>
+          <ul>
+            <li>15h00 – Scène découverte</li>
+            <li>17h30 – Zineb & The Moons</li>
+            <li>20h00 – Beat Medina</li>
+            <li>22h30 – Grand final collectif</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ARTISTES -->
+    <section class="section" id="artistes">
+      <h2>Les artistes</h2>
+      <ul class="artists">
+        <li><strong>Layali</strong><span>Électro-orientale</span></li>
+        <li><strong>Mehdi K.</strong><span>Hip-hop</span></li>
+        <li><strong>DJ Sahara</strong><span>House</span></li>
+        <li><strong>Yara Flow</strong><span>R&B</span></li>
+        <li><strong>Atlas Roots</strong><span>Gnawa fusion</span></li>
+        <li><strong>Nour Ensemble</strong><span>Musique du monde</span></li>
+        <li><strong>Zineb & The Moons</strong><span>Pop indé</span></li>
+        <li><strong>Beat Medina</strong><span>Afro-beat</span></li>
+      </ul>
+    </section>
+
+    <!-- GALERIE -->
+    <section class="section alt" id="galerie">
+      <h2>Galerie photo</h2>
+      <div class="gallery">
+        <figure class="g1"><figcaption>Scène principale</figcaption></figure>
+        <figure class="g2"><figcaption>Public 2025</figcaption></figure>
+        <figure class="g3"><figcaption>Backstage</figcaption></figure>
+        <figure class="g4"><figcaption>Village gastronomique</figcaption></figure>
+        <figure class="g5"><figcaption>Ateliers</figcaption></figure>
+        <figure class="g6"><figcaption>Feu d'artifice</figcaption></figure>
+      </div>
+      <p class="note">Remplacez ces blocs par vos photos : <code>&lt;img src="images/photo1.jpg" alt="…"&gt;</code></p>
+    </section>
+
+    <!-- INFOS PRATIQUES -->
+    <section class="section" id="infos">
+      <h2>Infos pratiques</h2>
+      <div class="cards">
+        <article class="card"><h3>Lieu</h3><p>Parc des Expositions, Marrakech</p></article>
+        <article class="card"><h3>Horaires</h3><p>Ouverture des portes à 16h, concerts jusqu'à 1h</p></article>
+        <article class="card"><h3>Tarifs</h3><p>Pass 1 jour : 150 MAD<br>Pass 3 jours : 350 MAD<br>Étudiants : −20 %</p></article>
+      </div>
+    </section>
+
+    <!-- INSCRIPTION / BILLETTERIE -->
+    <section class="section alt" id="inscription">
+      <h2>Inscription & billetterie</h2>
+      <form id="registerForm" novalidate>
+        <label for="nom">Nom complet</label>
+        <input type="text" id="nom" name="nom" placeholder="Ex : Yasmina Badi" autocomplete="name">
+        <small class="error" id="err-nom"></small>
+
+        <label for="email">Adresse e-mail</label>
+        <input type="email" id="email" name="email" placeholder="exemple@mail.com" autocomplete="email">
+        <small class="error" id="err-email"></small>
+
+        <label for="pass">Type de pass</label>
+        <select id="pass" name="pass">
+          <option value="">-- Choisir --</option>
+          <option value="1j">Pass 1 jour – 150 MAD</option>
+          <option value="3j">Pass 3 jours – 350 MAD</option>
+          <option value="etu">Pass étudiant – 280 MAD</option>
+        </select>
+        <small class="error" id="err-pass"></small>
+
+        <label class="check"><input type="checkbox" id="cgv"> J'accepte les conditions générales de vente</label>
+        <small class="error" id="err-cgv"></small>
+
+        <button type="submit" class="btn">Valider mon inscription</button>
+        <p id="formSuccess" class="success" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Atlas Sound Festival · Projet pédagogique – ENSA El Jadida · contact@atlassound.example</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
